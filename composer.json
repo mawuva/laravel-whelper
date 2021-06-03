@@ -5,7 +5,7 @@
         "mawuekom", "laravel", "laravel-helper",
         "whelper", "laravel-whelper"
     ],
-    "homepage": "https://github.com/mawuekom/laravel-whelper",
+    "homepage": "https://packagist.org/packages/mawuekom/laravel-whelper",
     "license": "MIT",
     "type": "library",
     "authors": [
