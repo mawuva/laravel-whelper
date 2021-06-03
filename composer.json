@@ -1,0 +1,54 @@
+{
+    "name": "mawuekom/laravel-whelper",
+    "description": "Usefull helpers for laravel projects",
+    "keywords": [
+        "mawuekom", "laravel", "laravel-helper",
+        "whelper", "laravel-whelper"
+    ],
+    "homepage": "https://github.com/mawuekom/laravel-whelper",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Seddor Ephraïm",
+            "email": "seddorephraim7@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "files": [
+            "src/utils_helper.php",
+            "src/api_resource_helper.php",
+            "src/input_data_helpers.php",
+            "src/hash_str_helper.php",
+            "src/meta_data_helper.php",
+            "src/laravel_assets_helper.php"
+        ],
+        "psr-4": {
+            "Mawuekom\\Whelper\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mawuekom\\Whelper\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
